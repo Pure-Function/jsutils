@@ -5,8 +5,7 @@
     "main": "dist/@pure-function/jsutils.js",
     "unpkg": "dist/@pure-function/jsutils.min.js",
     "publishConfig": {
-        "access": "public",
-        "registry": "https://npm.pkg.github.com/"
+        "access": "public"
     },
     "scripts": {
         "build": "webpack --env dev && webpack --env build && npm run test",
@@ -27,7 +26,7 @@
     "bugs": {
         "url": ""
     },
-    "homepage": "https://github.com/modil-io/jsutils",
+    "homepage": "https://github.com/pure-function/jsutils",
     "dependencies": {
         "es6-promise": "^4.2.8",
         "lodash.clone": "^4.5.0",

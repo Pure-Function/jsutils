@@ -7,7 +7,7 @@ const pkg = require('./package.json');
 
 let libraryName = pkg.name;
 
-let outputFile, mode;
+let outputFile, mode, devTool;
 
 if (env === 'build') {
     mode = 'production';
@@ -15,12 +15,13 @@ if (env === 'build') {
 } else {
     mode = 'development';
     outputFile = libraryName + '.js';
+    devTool = 'inline-source-map';
 }
 
 const config = {
     mode: mode,
     entry: __dirname + '/src/index.js',
-    devtool: 'inline-source-map',
+    devtool: devTool,
     output: {
         path: __dirname + '/dist',
         filename: outputFile,

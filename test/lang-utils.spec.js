@@ -1,10 +1,13 @@
 import chai from 'chai';
 import { LangUtils } from '../dist/@pure-function/jsutils.js';
 import { Exception } from 'handlebars';
+import jsdom from 'jsdom';
+const { JSDOM } = jsdom;
 
 const expect = chai.expect;
 
 describe('LangUtils tests', () => {
+    const { document } = new JSDOM('<!DOCTYPE html><p>Hello world</p>').window;
     describe('scriptExecute', () => {
         it('function', () => {
             expect(LangUtils.scriptExecute((x) => x * x, 0, 2)).to.equal(4);

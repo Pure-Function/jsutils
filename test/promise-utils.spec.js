@@ -1,7 +1,7 @@
 import chai from "chai";
 import chaiAsPromised from "chai-as-promised";
 
-import { PromiseUtils } from "../dist/@purefunction/jsutils.js";
+import { PromiseUtils } from "../dist/@pure-function/jsutils.js";
 
 chai.use(chaiAsPromised);
 const expect = chai.expect;

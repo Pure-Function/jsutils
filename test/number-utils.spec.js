@@ -1,5 +1,5 @@
 import chai from "chai";
-import { NumberUtils } from "../dist/@purefunction/jsutils.js";
+import { NumberUtils } from "../dist/@pure-function/jsutils.js";
 
 const expect = chai.expect;
 

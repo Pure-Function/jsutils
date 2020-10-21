@@ -6,11 +6,11 @@ See documentation [here](https://pure-function.github.io/jsutils)
 ## Usage
 Install the package using npm:
 ```js
-    npm install @purefunction/jsutils --save
+    npm install @pure-function/jsutils --save
 ```
 or yarn
 ```js
-    yarn add @purefunction/jsutils
+    yarn add @pure-function/jsutils
 ```
 
 ## License

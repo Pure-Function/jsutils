@@ -1,16 +1,16 @@
 # jsutils
 A JavaScript utilities library similar to [Lodash](https://lodash.com).
 
-See documentation [here](https://pure-function.github.io/jsutils)
+See documentation [here](https://funq.github.io/jsutils)
 
 ## Usage
 Install the package using npm:
 ```js
-    npm install @pure-function/jsutils --save
+    npm install @funq/jsutils --save
 ```
 or yarn
 ```js
-    yarn add @pure-function/jsutils
+    yarn add @funq/jsutils
 ```
 
 ## License

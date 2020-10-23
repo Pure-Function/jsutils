@@ -1095,6 +1095,13 @@
   resolved "https://registry.yarnpkg.com/@istanbuljs/schema/-/schema-0.1.2.tgz#26520bf09abe4a5644cd5414e37125a8954241dd"
   integrity sha512-tsAQNx32a8CoFhjhijUIhI4kccIAgmGhy8LZMZgGfmXcpMbPRUqn5LWmgRttILi6yeGmBJd2xsPkFMs0PzgPCw==
 
+"@funq/documentation-theme-light@*":
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/@funq/documentation-theme-light/-/documentation-theme-light-1.1.7.tgz#ed79a65c32f0f98a6ee357e40568705a977cc2fd"
+  integrity sha512-RjBMevSGtarCLtXsw54PpPiOqqHQwFNnj1k2bHhCeRAMNWzQ9pNSfju1Y3Y3oBQfCTyGbN5Nq1flPASPogbTPA==
+  dependencies:
+    anchor-js "^4.2.2"
+
 "@types/eslint-scope@^3.7.0":
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-scope/-/eslint-scope-3.7.0.tgz#4792816e31119ebd506902a482caec4951fabd86"
@@ -1425,10 +1432,10 @@ ajv@^6.10.0, ajv@^6.10.2, ajv@^6.12.3, ajv@^6.12.4, ajv@^6.12.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-anchor-js@^4.2.0:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/anchor-js/-/anchor-js-4.2.2.tgz#e4edd682752cb2afaecdbc03df5c7b31e3c02922"
-  integrity sha512-Rg1tGaG4K3avYqDh7rOYCE/odWxpUiHStnlKL/bGOt9cl6NjR06zhPGVQcCAjE5PT48oQeHVgqNmLzxh0Kuk4A==
+anchor-js@^4.2.2:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/anchor-js/-/anchor-js-4.3.0.tgz#812a1467178c0b227b2cec23dbb5b336e588ee6c"
+  integrity sha512-ROYrnfZIA0zLJbWCFO7IJH9VPetyN0gXb9iSWNXUGh4wLHX7Mw+foIizbbxAhOgfNFJfQDrAWbuU49ChF8bQ0A==
 
 ansi-colors@4.1.1, ansi-colors@^4.1.1:
   version "4.1.1"
@@ -3044,13 +3051,6 @@ doctrine@^3.0.0:
   integrity sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==
   dependencies:
     esutils "^2.0.2"
-
-documentation-theme-light@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/documentation-theme-light/-/documentation-theme-light-1.1.1.tgz#374161d3fa49a2f89a10998de732be3bf5e9f7b0"
-  integrity sha512-WhxBOFyeIkqxuS2hfLMmSt2PYdGVLW2Igsl/UDgczgY50EcMgyJodHIRDcyWbIeY/ZgJdhUZnHvfRVju5p0BDA==
-  dependencies:
-    anchor-js "^4.2.0"
 
 documentation@^13.0.2:
   version "13.0.2"

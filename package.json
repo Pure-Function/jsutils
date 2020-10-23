@@ -1,9 +1,9 @@
 {
-    "name": "@pure-function/jsutils",
+    "name": "@funq/jsutils",
     "version": "0.2.2",
     "description": "JavaScript utilities library",
-    "main": "dist/@pure-function/jsutils.js",
-    "unpkg": "dist/@pure-function/jsutils.min.js",
+    "main": "dist/@funq/jsutils.js",
+    "unpkg": "dist/@funq/jsutils.min.js",
     "publishConfig": {
         "access": "public"
     },
@@ -13,7 +13,7 @@
         "test": "mocha --require babel-register --colors ./test/*.spec.js",
         "test:watch": "mocha --require babel-register --colors -w ./test/*.spec.js",
         "test:cover": "cross-env NODE_ENV=test nyc mocha --require babel-register --colors test/*.js",
-        "docs:build": "documentation build --config documentation.yml -f html -o docs  src/**"
+        "docs:build": "documentation build --config documentation.yml  -f html -o docs  src/**"
     },
     "keywords": [
         "javascript",
@@ -26,7 +26,7 @@
     "bugs": {
         "url": ""
     },
-    "homepage": "https://github.com/pure-function/jsutils",
+    "homepage": "https://github.com/funq/jsutils",
     "dependencies": {
         "es6-promise": "^4.2.8",
         "lodash.clone": "^4.5.0",
@@ -41,6 +41,7 @@
         "@babel/core": "^7.12.3",
         "@babel/plugin-transform-object-assign": "7.12.1",
         "@babel/preset-env": "^7.12.1",
+        "@funq/documentation-theme-light": "*",
         "babel-eslint": "^10.1.0",
         "babel-loader": "^8.1.0",
         "babel-plugin-add-module-exports": "^1.0.4",
@@ -52,7 +53,6 @@
         "chai-as-promised": "^7.1.1",
         "cross-env": "^7.0.2",
         "documentation": "^13.0.2",
-        "documentation-theme-light": "^1.1.1",
         "es6-promise": "^4.2.8",
         "eslint": "^7.11.0",
         "eslint-loader": "^4.0.2",

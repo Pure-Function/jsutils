@@ -1,6 +1,6 @@
 {
     "name": "@funq/jsutils",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "description": "JavaScript utilities library",
     "main": "dist/@funq/jsutils.js",
     "unpkg": "dist/@funq/jsutils.min.js",
